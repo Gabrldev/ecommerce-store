@@ -10,6 +10,8 @@ async function HomePage() {
 
   const billboards = await getBillboard("48dc6f28-c8a2-439d-8351-1ff9bae5d706");
 
+  
+
   return (
     <Container>
       <div className="space-y-10 pb-10">
